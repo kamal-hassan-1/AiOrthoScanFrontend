@@ -1,0 +1,44 @@
+.button{
+    @apply h-[40px] border-[2px] border-transparent flex items-center pl-[5%] rounded-[7px] gap-[5%] cursor-pointer  
+    max-1480:gap-[3%] max-1300:gap-[2%] hover:border-green-300
+}
+.patient-box{
+    @apply w-[120px] h-[110px] bg-background-blue rounded-[10px] flex flex-col items-center justify-between py-[10px] max-960:w-[140px] max-960:h-[120px]
+    max-400:w-[100px] max-400:h-[90px]
+}
+.button-text{
+    @apply text-[16px] font-[600] max-1480:text-[14px]
+}
+.Report{
+    @apply flex flex-col gap-[25px] max-650:gap-[15px]
+}
+.Report-text{
+    @apply max-650:text-[14px] max-480:text-[11px] max-480:font-[500]
+}
+.Report-text-extend{
+    @apply max-650:text-[12px] max-480:font-[500] max-480:text-[9px] max-370:text-[7px]
+}
+.Report-color-box{
+    @apply w-[40px] h-[30px] text-[14px] flex justify-center items-center rounded-[5px] max-650:w-[30px] max-650:h-[24px] max-650:text-[10px] 
+    max-480:w-[25px] max-480:h-[20px] max-480:text-[9px] max-370:text-[7px] max-370:w-[20px] max-370:h-[16px]
+}
+.achievementBox{
+    @apply w-[180px] py-[10px] bg-background-blue rounded-[10px] flex flex-col items-center gap-[15px] max-650:w-[140px] 
+    max-650:justify-center max-650:gap-[10px] max-650:px-[0px] max-400:w-[115px] max-400:gap-[10px]
+}
+.moduleBox{
+    @apply w-[250px] h-[240px] border-[3px] border-transparent pt-[30px] bg-dark-blue rounded-[10px] flex flex-col items-center gap-[20px] max-820:w-[200px] max-820:h-[180px] max-820:gap-[15px]
+    max-820:pt-[20px] max-520:w-[150px] max-520:h-[140px] max-400:w-[125px] max-400:h-[115px] max-400:pt-[12px] hover:border-green-300
+}
+
+.input-field{
+    @apply w-[300px] flex flex-col gap-[5px] text-gray-300 max-480:w-auto
+}
+.input{
+    @apply h-[35px] rounded-[5px] items-center pl-[10px] bg-gray-400
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

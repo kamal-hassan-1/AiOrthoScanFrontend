@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a06b9c4.css",
+    "main.js": "/static/js/main.df3f9c42.js",
+    "static/js/453.7b8c7289.chunk.js": "/static/js/453.7b8c7289.chunk.js",
+    "static/media/Elbow.jpg": "/static/media/Elbow.767b6b10bec67c900960.jpg",
+    "static/media/history.png": "/static/media/history.726a55172738cc81dfcf.png",
+    "static/media/home.png": "/static/media/home.98c74c34ca22cc76844e.png",
+    "static/media/completed.png": "/static/media/completed.48b1de882aa687284465.png",
+    "static/media/profile.png": "/static/media/profile.5d9e130d28af0de0f25a.png",
+    "static/media/name.png": "/static/media/name.4406446398e3dd8e8d65.png",
+    "static/media/pending.png": "/static/media/pending.b65028d3e8160033b7ab.png",
+    "static/media/profile-logo.jpg": "/static/media/profile-logo.2926b8591464ec3fb91c.jpg",
+    "static/media/logo.png": "/static/media/logo.892d457337cd06a0f3dd.png",
+    "static/media/success.png": "/static/media/success.f03d91bec361770b06f5.png",
+    "static/media/cross.png": "/static/media/cross.7e62b257f8457a07a48b.png",
+    "static/media/bone.png": "/static/media/bone.1a7d3156a718ff4f4deb.png",
+    "static/media/sign-out.svg": "/static/media/sign-out.7d637e405d78be8a27924b0231f8a75b.svg",
+    "index.html": "/index.html",
+    "static/media/attach.svg": "/static/media/attach.38b153791c601dafa3f5dd79e54c7a7b.svg",
+    "static/media/menu.svg": "/static/media/menu.ce5f6f4f55ea2f743fc7a8f50f183baf.svg",
+    "main.6a06b9c4.css.map": "/static/css/main.6a06b9c4.css.map",
+    "main.df3f9c42.js.map": "/static/js/main.df3f9c42.js.map",
+    "453.7b8c7289.chunk.js.map": "/static/js/453.7b8c7289.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a06b9c4.css",
+    "static/js/main.df3f9c42.js"
+  ]
+}
