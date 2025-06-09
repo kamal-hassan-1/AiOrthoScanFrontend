@@ -58,7 +58,7 @@ const Signup = () => {
 
     try {
       // Make a POST request to the signup endpoint
-      const response = await axios.post('https://aiorthoscan.wckd.pk/api/auth/signup', {
+      const response = await axios.post('https://aiorthoscanbackend-production.up.railway.app/api/auth/signup', {
         fullName,
         age,
         gender,
