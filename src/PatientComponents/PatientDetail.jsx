@@ -16,7 +16,7 @@ useEffect (() => {
   const fetchPatientData = async () => {
     const token = localStorage.getItem('token');
     try{
-      const response = await axios.get('https://aiorthoscan.wckd.pk/api/main/patientRecords',{headers: {Authorization: `Bearer ${token}`, },});
+      const response = await axios.get('https://aiorthoscanbackend-production.up.railway.app/api/main/patientRecords',{headers: {Authorization: `Bearer ${token}`, },});
 
       const { fullName, age, gender, patientId } = response.data;
       setPatientData({fullName,age,gender,patientId});
