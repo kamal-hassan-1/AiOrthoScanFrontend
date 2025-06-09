@@ -32,7 +32,7 @@ const Login = () => {
 
     try {
       // Make a POST request to the login endpoint
-      const response = await axios.post('https://aiorthoscan.wckd.pk/api/auth/login', {
+      const response = await axios.post('https://aiorthoscanbackend-production.up.railway.app/api/auth/login', {
         email,
         password,
       });
