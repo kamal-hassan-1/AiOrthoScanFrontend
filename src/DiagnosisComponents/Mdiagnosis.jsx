@@ -35,7 +35,7 @@ const Mdiagnosis = () => {
 
 
     try {
-      const response = await axios.post('https://aiorthoscan.wckd.pk/api/main/uploadPatientData', formData, {
+      const response = await axios.post('https://aiorthoscanbackend-production.up.railway.app/api/main/uploadPatientData', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
