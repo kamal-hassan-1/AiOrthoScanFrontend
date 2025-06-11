@@ -38,7 +38,7 @@ const Mdiagnosis = () => {
 
 		try {
 			const response = await axios.post(
-				"http://localhost:3500/api/main/uploadPatientData",
+				"https://aiorthoscanbackend-production.up.railway.app/api/main/uploadPatientData",
 				formData,
 				{
 					headers: {
@@ -84,7 +84,7 @@ const Mdiagnosis = () => {
 				inputValue;
 
 			const response = await axios.post(
-				"http://localhost:3500/api/diagnosis/Aidiagnosis",
+				"https://aiorthoscanbackend-production.up.railway.app/api/diagnosis/Aidiagnosis",
 				{
 					imageBase64,
 					promptText,
