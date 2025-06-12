@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Bone from "../img/bone.png";
 import Home from "../img/home.png";
+import Cross from "../img/white_cross.png";
 import SignOut from "../svg/sign-out.svg";
 
 const Left = ({ isVisible, toggleLeft }) => {
